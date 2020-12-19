@@ -1,5 +1,44 @@
 /*Style Desktop Layout*/
 
-@media screen and (min-width: 769px) {
-  
+@media screen and (min-width: 1025px) {
+
+    body{
+        margin: 0
+    }
+
+    .header-menu-element{
+        cursor: pointer;
+        padding: 1.5em 1.5em;
+        text-align: center;
+        display: inline-flex;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+
+    .header-menu-icon{
+        margin-right: 5px;
+    }
+
+    .header-mobile-menu-wrapper{
+        display: none;
+    }
+
+    .header-nav{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        display: block;
+    }
+
+    .header-name{
+        text-align: center;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: darkred
+    }
 }
